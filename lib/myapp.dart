@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:tela_dio/home_page.dart';
+import 'package:tela_dio/login_page.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(primarySwatch: Colors.green),
       debugShowCheckedModeBanner: false,
-      home: const HomePage(title: 'Floricultura'),
+      home:  LoginPage(),
     );
   }
 }
